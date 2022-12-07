@@ -2,7 +2,7 @@ const dotenv = require('dotenv');
 const mongoose = require('mongoose');
 const express = require('express');
 const app = express();
-
+// asda/
 //env file ke andr wale variable ko lane ke liye hum ab config file ko include krenge
 dotenv.config({path : './config.env'});
 //database
