@@ -6,7 +6,7 @@ const app = express();
 //env file ke andr wale variable ko lane ke liye hum ab config file ko include krenge
 dotenv.config({path : './config.env'});
 //database
-const DB = process.env.DATABASE; 
+const DB = process.env.DATABASE;  
 //it returns promise
 mongoose.set('strictQuery', false);
 mongoose.connect(DB , {
